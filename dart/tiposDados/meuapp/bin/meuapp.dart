@@ -16,6 +16,22 @@ void main(List<String> arguments) {
   print("Retorna veradeiro se o somente se esse inteiro for impar");
   print(numero.isOdd);
 
+  print("retorna se o numero é infinito")
+  print(numero.isInfinite);
+
+  print("retorna se o numero é finito")
+  print(double.infinity);
+
+  print("retorna se o número não é um numero valido");
+  print(numero.isNaN);  
+
+  print("retorna se o número é negativo");
+  print(numero.isNegative);
+  
+  print("converte o numero para inteiro");
+  print(int.tryParse('1'));
+
+  
   List<String> lista = [];
   lista.add('A');
   var lista1 = []; /// tipo dinamico 
