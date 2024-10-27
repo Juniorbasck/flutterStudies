@@ -10,16 +10,32 @@ void main(List<String> arguments) {
   int numero2 = 2;
   int numero3;
 
+  double numDouble = 1.2;
+  var numDouble2 = 1.2;
+
+  print("remove ponto flutuate");
+  print(numDouble.truncate());
+  print(numDouble2.truncate());
+
+  print("converte para inteiro");
+  print(numDouble.toInt());
+  print(numDouble2.toInt());
+
+  print("arredonda para cima");
+  print(numDouble.ceil());
+
+
+
   print("Retorna veradeiro se o somente se esse inteiro for par");
   print(numero.isEven);
 
   print("Retorna veradeiro se o somente se esse inteiro for impar");
   print(numero.isOdd);
 
-  print("retorna se o numero é infinito")
+  print("retorna se o numero é infinito");
   print(numero.isInfinite);
 
-  print("retorna se o numero é finito")
+  print("retorna se o numero é finito");
   print(double.infinity);
 
   print("retorna se o número não é um numero valido");
