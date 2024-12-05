@@ -4,10 +4,11 @@ import 'dart:io';
 void main(List<String> arguments) {
   print('Informe primeira nota: ');
   var line = stdin.readLineSync(encoding: utf8);
-  print(line);
+  var prova1 = int.parse(line!);
+  print('Informe segunda nota: ');
+  var line2 = stdin.readLineSync(encoding: utf8);
+  var prova2 = int.parse(line2!);
 
-  var prova1 = 9;
-  var prova2 = 5;
   var media = (prova1 + prova2) / 2;
   if (media > 7) {
     print('O aluno passou com nota $media');
